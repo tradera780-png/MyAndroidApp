@@ -9,6 +9,8 @@ color red
 color text_primary
 color text_secondary
 color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
 id buttonDelete
 id buttonEdit
 id buttonSave
@@ -49,6 +51,8 @@ layout fragment_suggested_recipes
 layout item_pantry
 layout item_recipe
 menu bottom_nav_menu
+mipmap ic_launcher
+mipmap ic_launcher_round
 string add_ingredient
 string app_name
 string cancel
