@@ -1,11 +1,23 @@
 [
     {
-        "merged": "com.pantry.smartpantrymanager.app-debug-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.pantry.smartpantrymanager.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.14.6\\com.pantry.smartpantrymanager.app-debug-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.14.6\\com.pantry.smartpantrymanager.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.14.6\\com.pantry.smartpantrymanager.app-debug-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.14.6\\com.pantry.smartpantrymanager.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.14.6\\com.pantry.smartpantrymanager.app-debug-32:\\layout_activity_recipe_detail.xml.flat",
         "source": "C:\\Users\\hp\\.gradle\\daemon\\8.14.6\\com.pantry.smartpantrymanager.app-main-34:\\layout\\activity_recipe_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.14.6\\com.pantry.smartpantrymanager.app-debug-32:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.14.6\\com.pantry.smartpantrymanager.app-main-34:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.14.6\\com.pantry.smartpantrymanager.app-debug-32:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.14.6\\com.pantry.smartpantrymanager.app-main-34:\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.14.6\\com.pantry.smartpantrymanager.app-debug-32:\\layout_fragment_settings.xml.flat",
@@ -46,13 +58,5 @@
     {
         "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.14.6\\com.pantry.smartpantrymanager.app-debug-32:\\layout_item_recipe.xml.flat",
         "source": "C:\\Users\\hp\\.gradle\\daemon\\8.14.6\\com.pantry.smartpantrymanager.app-main-34:\\layout\\item_recipe.xml"
-    },
-    {
-        "merged": "com.pantry.smartpantrymanager.app-debug-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.pantry.smartpantrymanager.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
-        "merged": "com.pantry.smartpantrymanager.app-debug-32:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.pantry.smartpantrymanager.app-main-34:/drawable/ic_launcher_background.xml"
     }
 ]

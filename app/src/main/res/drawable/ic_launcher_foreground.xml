@@ -3,15 +3,35 @@
     android:height="108dp"
     android:viewportWidth="24"
     android:viewportHeight="24">
-  <!-- Pantry Shelf / Basket Icon in White -->
+  <!-- Pantry Cabinet Box in White -->
   <path
       android:fillColor="#FFFFFF"
       android:pathData="M3,4h18v2h-18z M4,7h16l-1.5,12h-13z"/>
-  <!-- Shelves -->
+  <!-- Shelf 1 Divider -->
   <path
       android:fillColor="#2E7D32"
-      android:pathData="M5,11h14v1h-14z M6,15h12v1h-12z"/>
-  <!-- Fresh Leaf Accent -->
+      android:pathData="M5,11h14v1h-14z"/>
+  <!-- Shelf 2 Divider -->
+  <path
+      android:fillColor="#2E7D32"
+      android:pathData="M6,15h12v1h-12z"/>
+  <!-- Jars / Items on Top Shelf (Pantry) -->
+  <path
+      android:fillColor="#81C784"
+      android:pathData="M7,8h3v3h-3z M11,8h2v3h-2z M14,8h3v3h-3z"/>
+  <!-- Jar Lids / Caps (Contrasting Dark Green) -->
+  <path
+      android:fillColor="#1B5E20"
+      android:pathData="M7.5,7.5h2v0.5h-2z M11.25,7.5h1.5v0.5h-1.5z M14.5,7.5h2v0.5h-2z"/>
+  <!-- Jars / Items on Bottom Shelf (Manager) -->
+  <path
+      android:fillColor="#C8E6C9"
+      android:pathData="M8,12h2.5v3h-2.5z M12,12h4v3h-4z"/>
+  <!-- Jar Lids -->
+  <path
+      android:fillColor="#1B5E20"
+      android:pathData="M8.25,11.5h2v0.5h-2z M12.5,11.5h3v0.5h-3z"/>
+  <!-- Fresh Leaf Accent on Top -->
   <path
       android:fillColor="#81C784"
       android:pathData="M12,1c-2,0 -4,1 -4,3c0,1.5 1.5,2.5 4,4c2.5,-1.5 4,-2.5 4,-4c0,-2 -2,-3 -4,-3z"/>
