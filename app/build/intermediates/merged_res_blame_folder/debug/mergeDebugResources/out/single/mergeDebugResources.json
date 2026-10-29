@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.pantry.smartpantrymanager.app-debug-32:/layout_fragment_settings.xml.flat",
+        "source": "com.pantry.smartpantrymanager.app-main-34:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.pantry.smartpantrymanager.app-debug-32:/layout_activity_recipe_detail.xml.flat",
+        "source": "com.pantry.smartpantrymanager.app-main-34:/layout/activity_recipe_detail.xml"
+    },
+    {
+        "merged": "com.pantry.smartpantrymanager.app-debug-32:/layout_fragment_pantry.xml.flat",
+        "source": "com.pantry.smartpantrymanager.app-main-34:/layout/fragment_pantry.xml"
+    },
+    {
+        "merged": "com.pantry.smartpantrymanager.app-debug-32:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.pantry.smartpantrymanager.app-main-34:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.pantry.smartpantrymanager.app-debug-32:/layout_item_pantry.xml.flat",
+        "source": "com.pantry.smartpantrymanager.app-main-34:/layout/item_pantry.xml"
+    },
+    {
+        "merged": "com.pantry.smartpantrymanager.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "com.pantry.smartpantrymanager.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.pantry.smartpantrymanager.app-debug-32:/layout_fragment_suggested_recipes.xml.flat",
+        "source": "com.pantry.smartpantrymanager.app-main-34:/layout/fragment_suggested_recipes.xml"
+    },
+    {
+        "merged": "com.pantry.smartpantrymanager.app-debug-32:/layout_activity_add_edit_pantry.xml.flat",
+        "source": "com.pantry.smartpantrymanager.app-main-34:/layout/activity_add_edit_pantry.xml"
+    },
+    {
+        "merged": "com.pantry.smartpantrymanager.app-debug-32:/layout_fragment_recipe_list.xml.flat",
+        "source": "com.pantry.smartpantrymanager.app-main-34:/layout/fragment_recipe_list.xml"
+    },
+    {
+        "merged": "com.pantry.smartpantrymanager.app-debug-32:/layout_item_recipe.xml.flat",
+        "source": "com.pantry.smartpantrymanager.app-main-34:/layout/item_recipe.xml"
+    }
+]

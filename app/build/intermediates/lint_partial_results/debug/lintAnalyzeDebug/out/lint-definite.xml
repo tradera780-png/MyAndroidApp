@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.5.0" type="incidents">
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Recipe Name&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_recipe_detail.xml"
+            line="16"
+            column="13"
+            startOffset="559"
+            endLine="16"
+            endColumn="39"
+            endOffset="585"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Prep Time: 15 mins&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_recipe_detail.xml"
+            line="25"
+            column="13"
+            startOffset="895"
+            endLine="25"
+            endColumn="46"
+            endOffset="928"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Required Ingredients:&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_recipe_detail.xml"
+            line="34"
+            column="13"
+            startOffset="1249"
+            endLine="34"
+            endColumn="49"
+            endOffset="1285"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;- 200g Pasta\n- 3 Tomatoes&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_recipe_detail.xml"
+            line="44"
+            column="13"
+            startOffset="1654"
+            endLine="44"
+            endColumn="54"
+            endOffset="1695"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Preparation Steps:&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_recipe_detail.xml"
+            line="52"
+            column="13"
+            startOffset="1970"
+            endLine="52"
+            endColumn="46"
+            endOffset="2003"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;1. Boil pasta...\n2. Cook sauce...&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_recipe_detail.xml"
+            line="62"
+            column="13"
+            startOffset="2366"
+            endLine="62"
+            endColumn="62"
+            endOffset="2415"/>
+    </incident>
+
+    <incident
+        id="UseSwitchCompatOrMaterialXml"
+        severity="warning"
+        message="Use `SwitchCompat` from AppCompat or `SwitchMaterial` from Material library">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_settings.xml"
+            line="17"
+            column="5"
+            startOffset="581"
+            endLine="24"
+            endColumn="34"
+            endOffset="882"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Enable Expiry Alerts&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_settings.xml"
+            line="21"
+            column="9"
+            startOffset="735"
+            endLine="21"
+            endColumn="44"
+            endOffset="770"/>
+    </incident>
+
+    <incident
+        id="UseSwitchCompatOrMaterialXml"
+        severity="warning"
+        message="Use `SwitchCompat` from AppCompat or `SwitchMaterial` from Material library">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_settings.xml"
+            line="26"
+            column="5"
+            startOffset="890"
+            endLine="33"
+            endColumn="35"
+            endOffset="1210"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Daily Recipe Suggestions Notification&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_settings.xml"
+            line="30"
+            column="9"
+            startOffset="1045"
+            endLine="30"
+            endColumn="61"
+            endOffset="1097"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;App Version: 1.0&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_settings.xml"
+            line="38"
+            column="9"
+            startOffset="1328"
+            endLine="38"
+            endColumn="40"
+            endOffset="1359"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Ingredient Name&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_pantry.xml"
+            line="27"
+            column="17"
+            startOffset="1005"
+            endLine="27"
+            endColumn="47"
+            endOffset="1035"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Qty: 100 g&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_pantry.xml"
+            line="36"
+            column="17"
+            startOffset="1379"
+            endLine="36"
+            endColumn="42"
+            endOffset="1404"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Recipe Name&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_recipe.xml"
+            line="20"
+            column="13"
+            startOffset="743"
+            endLine="20"
+            endColumn="39"
+            endOffset="769"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Prep time: 15 mins&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_recipe.xml"
+            line="29"
+            column="13"
+            startOffset="1079"
+            endLine="29"
+            endColumn="46"
+            endOffset="1112"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/pantry/smartpantrymanager/data/DatabaseHelper.java"
+            line="92"
+            column="62"
+            startOffset="3722"
+            endLine="92"
+            endColumn="73"
+            endOffset="3733"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/pantry/smartpantrymanager/data/DatabaseHelper.java"
+            line="128"
+            column="62"
+            startOffset="5264"
+            endLine="128"
+            endColumn="73"
+            endOffset="5275"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/pantry/smartpantrymanager/data/DatabaseHelper.java"
+            line="294"
+            column="48"
+            startOffset="14368"
+            endLine="294"
+            endColumn="59"
+            endOffset="14379"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/pantry/smartpantrymanager/logic/RecipeMatcher.java"
+            line="92"
+            column="21"
+            startOffset="3323"
+            endLine="92"
+            endColumn="32"
+            endOffset="3334"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/pantry/smartpantrymanager/ui/adapters/PantryAdapter.java"
+            line="34"
+            column="9"
+            startOffset="1022"
+            endLine="34"
+            endColumn="31"
+            endOffset="1044"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/pantry/smartpantrymanager/ui/adapters/PantryAdapter.java"
+            line="48"
+            column="36"
+            startOffset="1568"
+            endLine="48"
+            endColumn="87"
+            endOffset="1619"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/pantry/smartpantrymanager/ui/adapters/PantryAdapter.java"
+            line="48"
+            column="36"
+            startOffset="1568"
+            endLine="48"
+            endColumn="43"
+            endOffset="1575"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/pantry/smartpantrymanager/ui/adapters/RecipeAdapter.java"
+            line="32"
+            column="9"
+            startOffset="912"
+            endLine="32"
+            endColumn="31"
+            endOffset="934"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/pantry/smartpantrymanager/ui/adapters/RecipeAdapter.java"
+            line="46"
+            column="37"
+            startOffset="1455"
+            endLine="46"
+            endColumn="73"
+            endOffset="1491"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/pantry/smartpantrymanager/ui/adapters/RecipeAdapter.java"
+            line="46"
+            column="37"
+            startOffset="1455"
+            endLine="46"
+            endColumn="50"
+            endOffset="1468"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/pantry/smartpantrymanager/ui/recipes/RecipeDetailActivity.java"
+            line="37"
+            column="30"
+            startOffset="1340"
+            endLine="37"
+            endColumn="50"
+            endOffset="1360"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/pantry/smartpantrymanager/ui/recipes/RecipeDetailActivity.java"
+            line="37"
+            column="30"
+            startOffset="1340"
+            endLine="37"
+            endColumn="43"
+            endOffset="1353"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.8.0">
+        <fix-replace
+            description="Change to 1.8.0"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.8.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="35"
+            column="20"
+            startOffset="804"
+            endLine="35"
+            endColumn="56"
+            endOffset="840"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.11.0 is available: 1.14.0">
+        <fix-replace
+            description="Change to 1.14.0"
+            family="Update versions"
+            oldString="1.11.0"
+            replacement="1.14.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="36"
+            column="20"
+            startOffset="861"
+            endLine="36"
+            endColumn="65"
+            endOffset="906"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.2">
+        <fix-replace
+            description="Change to 2.2.2"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.2"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="37"
+            column="20"
+            startOffset="927"
+            endLine="37"
+            endColumn="70"
+            endOffset="977"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.recyclerview:recyclerview than 1.3.2 is available: 1.4.0">
+        <fix-replace
+            description="Change to 1.4.0"
+            family="Update versions"
+            oldString="1.3.2"
+            replacement="1.4.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="38"
+            column="20"
+            startOffset="998"
+            endLine="38"
+            endColumn="62"
+            endOffset="1040"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.fragment:fragment than 1.6.2 is available: 1.9.1">
+        <fix-replace
+            description="Change to 1.9.1"
+            family="Update versions"
+            oldString="1.6.2"
+            replacement="1.9.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="40"
+            column="20"
+            startOffset="1116"
+            endLine="40"
+            endColumn="54"
+            endOffset="1150"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0">
+        <fix-replace
+            description="Change to 1.3.0"
+            family="Update versions"
+            oldString="1.1.5"
+            replacement="1.3.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="43"
+            column="31"
+            startOffset="1229"
+            endLine="43"
+            endColumn="62"
+            endOffset="1260"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0">
+        <fix-replace
+            description="Change to 3.7.0"
+            family="Update versions"
+            oldString="3.5.1"
+            replacement="3.7.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="44"
+            column="31"
+            startOffset="1292"
+            endLine="44"
+            endColumn="75"
+            endOffset="1336"/>
+    </incident>
+
+</incidents>

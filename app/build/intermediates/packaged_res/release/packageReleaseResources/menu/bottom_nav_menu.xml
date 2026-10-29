@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_pantry"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/title_pantry" />
+
+    <item
+        android:id="@+id/navigation_suggested"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="@string/title_suggested" />
+
+    <item
+        android:id="@+id/navigation_recipes"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="@string/title_recipes" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="@string/title_settings" />
+</menu>

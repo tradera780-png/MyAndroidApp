@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.5.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.pantry.smartpantrymanager.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.white"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="10"
+            column="12"
+            startOffset="392"
+            endLine="10"
+            endColumn="24"
+            endOffset="404"/>
+        <location id="R.color.card_background"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="7"
+            column="12"
+            startOffset="243"
+            endLine="7"
+            endColumn="34"
+            endOffset="265"/>
+        <location id="R.string.cancel"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="15"
+            column="13"
+            startOffset="737"
+            endLine="15"
+            endColumn="26"
+            endOffset="750"/>
+        <entry
+            name="model"
+            string="attr[selectableItemBackgroundBorderless(R)],color[primary(U),text_secondary(U),text_primary(U),primary_dark(U),accent(U),background(U),card_background(D),white(D),red(D)],id[textViewTitle(U),editTextName(U),editTextQty(U),editTextUnit(U),buttonSave(U),nav_host_fragment(U),nav_view(U),textViewDetailName(U),textViewDetailTime(U),textViewDetailIngredients(U),textViewDetailSteps(U),recyclerViewPantry(U),textViewEmptyPantry(U),fabAddPantry(U),recyclerViewRecipes(U),switchExpiryAlerts(D),switchNotifications(D),recyclerViewSuggested(U),textViewEmptySuggestions(U),textViewItemName(U),textViewItemQty(U),buttonEdit(U),buttonDelete(U),textViewRecipeName(U),textViewRecipeTime(U),navigation_pantry(U),navigation_suggested(U),navigation_recipes(U),navigation_settings(U)],layout[activity_add_edit_pantry(U),activity_main(U),activity_recipe_detail(U),fragment_pantry(U),fragment_recipe_list(U),fragment_settings(U),fragment_suggested_recipes(U),item_pantry(U),item_recipe(U)],menu[bottom_nav_menu(U)],string[app_name(U),add_ingredient(U),ingredient_name(U),quantity(U),unit(U),save(U),empty_pantry(U),title_settings(U),empty_suggestions(U),edit(U),delete(U),title_pantry(U),title_suggested(U),title_recipes(U),edit_ingredient(U),expiry_date(D),cancel(D)],style[Theme_SmartPantryManager(U),Widget_MaterialComponents_TextInputLayout_OutlinedBox(R),Theme_Material3_DayNight_NoActionBar(R)];27^32^1^43^33^34^35^36,28^10^30,29^1^2^3,2a^37^32,2c^38^1^2,2d^39^2,2e^3^2^0^3a^3b,2f^1^2,30^3c^3d^3e^38,42^44^1^4^5^6;;;"/>
+        <location id="R.color.red"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="11"
+            column="12"
+            startOffset="433"
+            endLine="11"
+            endColumn="22"
+            endOffset="443"/>
+        <location id="R.string.expiry_date"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="13"
+            column="13"
+            startOffset="634"
+            endLine="13"
+            endColumn="31"
+            endOffset="652"/>
+    </map>
+
+</incidents>
