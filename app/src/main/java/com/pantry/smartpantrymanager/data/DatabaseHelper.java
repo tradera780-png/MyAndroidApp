@@ -16,7 +16,7 @@ import java.util.List;
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "smart_pantry.db";
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 2;
 
     // Table names
     public static final String TABLE_PANTRY = "pantry_items";
@@ -73,6 +73,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL(CREATE_RECIPES_TABLE);
         db.execSQL(CREATE_RECIPE_INGREDIENTS_TABLE);
 
+        seedPantry(db);
         seedRecipes(db);
     }
 
@@ -295,5 +296,27 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         values.put(COLUMN_RI_QTY, qty);
         values.put(COLUMN_RI_UNIT, unit);
         db.insert(TABLE_RECIPE_INGREDIENTS, null, values);
+    }
+
+    private void seedPantry(SQLiteDatabase db) {
+        insertPantryItem(db, "pasta", 100.0, "g", "2026-12-31");
+        insertPantryItem(db, "rice", 100.0, "g", "2026-12-31");
+        insertPantryItem(db, "cheese", 75.0, "g", "2026-11-15");
+        insertPantryItem(db, "butter", 80.0, "g", "2026-11-20");
+        insertPantryItem(db, "milk", 100.0, "ml", "2026-11-10");
+        insertPantryItem(db, "sugar", 100.0, "g", "2027-01-01");
+        insertPantryItem(db, "salt", 100.0, "g", "2027-01-01");
+        insertPantryItem(db, "beans", 100.0, "g", "2026-12-31");
+        insertPantryItem(db, "mayonnaise", 80.0, "g", "2026-11-30");
+        insertPantryItem(db, "olive oil", 100.0, "ml", "2027-06-30");
+    }
+
+    private void insertPantryItem(SQLiteDatabase db, String name, double qty, String unit, String expiry) {
+        ContentValues values = new ContentValues();
+        values.put(COLUMN_PANTRY_NAME, name.trim().toLowerCase());
+        values.put(COLUMN_PANTRY_QTY, qty);
+        values.put(COLUMN_PANTRY_UNIT, unit);
+        values.put(COLUMN_PANTRY_EXPIRY, expiry);
+        db.insert(TABLE_PANTRY, null, values);
     }
 }

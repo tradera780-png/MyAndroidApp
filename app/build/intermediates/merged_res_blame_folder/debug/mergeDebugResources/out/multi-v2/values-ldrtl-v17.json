@@ -4,7 +4,7 @@
             "outputFile": "com.pantry.smartpantrymanager.app-mergeDebugResources-30:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hp\\.gradle\\caches\\8.14.6\\transforms\\fe591a00c60c5ff29529e15f235e7874\\transformed\\material-1.11.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\9.5.0\\transforms\\5318591fa641a5059507ee5ea5dc3be1\\transformed\\material-1.11.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

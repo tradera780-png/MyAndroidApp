@@ -4,7 +4,7 @@
             "outputFile": "com.pantry.smartpantrymanager.app-mergeDebugResources-30:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hp\\.gradle\\caches\\8.14.6\\transforms\\cd68fca9ea1878aa0b22026082b900a4\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\9.5.0\\transforms\\b37895c8fe0d90619b08b9aa57234ddc\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
