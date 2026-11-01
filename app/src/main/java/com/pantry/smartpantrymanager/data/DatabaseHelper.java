@@ -16,7 +16,7 @@ import java.util.List;
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "smart_pantry.db";
-    private static final int DATABASE_VERSION = 2;
+    private static final int DATABASE_VERSION = 3;
 
     // Table names
     public static final String TABLE_PANTRY = "pantry_items";
@@ -279,6 +279,70 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         insertRecipeIngredient(db, r15, "butter", 30.0, "g");
         insertRecipeIngredient(db, r15, "milk", 40.0, "ml");
         insertRecipeIngredient(db, r15, "salt", 3.0, "g");
+
+        // 16. Butter Rice
+        long r16 = insertRecipe(db, "Butter Rice", "1. Cook rice until tender.\n2. Stir in butter and salt until melted and well mixed.", "10 mins");
+        insertRecipeIngredient(db, r16, "rice", 50.0, "g");
+        insertRecipeIngredient(db, r16, "butter", 20.0, "g");
+        insertRecipeIngredient(db, r16, "salt", 2.0, "g");
+
+        // 17. Cheesy Butter Pasta
+        long r17 = insertRecipe(db, "Cheesy Butter Pasta", "1. Boil pasta until tender.\n2. Toss hot pasta with butter, cheese, and salt until creamy.", "12 mins");
+        insertRecipeIngredient(db, r17, "pasta", 70.0, "g");
+        insertRecipeIngredient(db, r17, "butter", 20.0, "g");
+        insertRecipeIngredient(db, r17, "cheese", 40.0, "g");
+        insertRecipeIngredient(db, r17, "salt", 2.0, "g");
+
+        // 18. Sweet Milk Rice
+        long r18 = insertRecipe(db, "Sweet Milk Rice", "1. Simmer rice in milk until soft.\n2. Stir in sugar until dissolved.", "15 mins");
+        insertRecipeIngredient(db, r18, "rice", 60.0, "g");
+        insertRecipeIngredient(db, r18, "milk", 80.0, "ml");
+        insertRecipeIngredient(db, r18, "sugar", 20.0, "g");
+
+        // 19. Olive Oil Pasta
+        long r19 = insertRecipe(db, "Olive Oil Pasta", "1. Boil pasta until al dente.\n2. Toss with olive oil and salt.", "10 mins");
+        insertRecipeIngredient(db, r19, "pasta", 80.0, "g");
+        insertRecipeIngredient(db, r19, "olive oil", 20.0, "ml");
+        insertRecipeIngredient(db, r19, "salt", 3.0, "g");
+
+        // 20. Cheesy Beans
+        long r20 = insertRecipe(db, "Cheesy Beans", "1. Warm beans in a pan with butter and salt.\n2. Top with cheese until melted.", "8 mins");
+        insertRecipeIngredient(db, r20, "beans", 80.0, "g");
+        insertRecipeIngredient(db, r20, "cheese", 30.0, "g");
+        insertRecipeIngredient(db, r20, "butter", 10.0, "g");
+        insertRecipeIngredient(db, r20, "salt", 2.0, "g");
+
+        // 21. Sweet Milk Drink
+        long r21 = insertRecipe(db, "Sweet Milk Drink", "1. Warm milk with a small pat of butter.\n2. Stir in sugar until sweet and smooth.", "5 mins");
+        insertRecipeIngredient(db, r21, "milk", 90.0, "ml");
+        insertRecipeIngredient(db, r21, "sugar", 15.0, "g");
+        insertRecipeIngredient(db, r21, "butter", 10.0, "g");
+
+        // 22. Mayo Beans Salad
+        long r22 = insertRecipe(db, "Mayo Beans Salad", "1. Mix boiled beans with mayonnaise and salt.\n2. Chill and serve.", "5 mins");
+        insertRecipeIngredient(db, r22, "beans", 70.0, "g");
+        insertRecipeIngredient(db, r22, "mayonnaise", 40.0, "g");
+        insertRecipeIngredient(db, r22, "salt", 2.0, "g");
+
+        // 23. Olive Oil Rice
+        long r23 = insertRecipe(db, "Olive Oil Rice", "1. Cook rice.\n2. Drizzle with olive oil and season with salt, toss gently.", "10 mins");
+        insertRecipeIngredient(db, r23, "rice", 70.0, "g");
+        insertRecipeIngredient(db, r23, "olive oil", 15.0, "ml");
+        insertRecipeIngredient(db, r23, "salt", 2.0, "g");
+
+        // 24. Cheesy Rice
+        long r24 = insertRecipe(db, "Cheesy Rice", "1. Cook rice until hot.\n2. Fold in butter and cheese until melted and gooey.", "12 mins");
+        insertRecipeIngredient(db, r24, "rice", 60.0, "g");
+        insertRecipeIngredient(db, r24, "cheese", 40.0, "g");
+        insertRecipeIngredient(db, r24, "butter", 15.0, "g");
+        insertRecipeIngredient(db, r24, "salt", 2.0, "g");
+
+        // 25. Creamy Butter Beans
+        long r25 = insertRecipe(db, "Creamy Butter Beans", "1. Simmer beans in milk and butter until creamy.\n2. Season with salt.", "15 mins");
+        insertRecipeIngredient(db, r25, "beans", 80.0, "g");
+        insertRecipeIngredient(db, r25, "milk", 40.0, "ml");
+        insertRecipeIngredient(db, r25, "butter", 20.0, "g");
+        insertRecipeIngredient(db, r25, "salt", 2.0, "g");
     }
 
     private long insertRecipe(SQLiteDatabase db, String name, String steps, String time) {
