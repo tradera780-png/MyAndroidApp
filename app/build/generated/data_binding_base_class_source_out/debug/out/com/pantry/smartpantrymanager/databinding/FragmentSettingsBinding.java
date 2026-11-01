@@ -4,7 +4,7 @@ package com.pantry.smartpantrymanager.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.Switch;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -17,7 +17,7 @@ import java.lang.String;
 
 public final class FragmentSettingsBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
   public final Switch switchExpiryAlerts;
@@ -25,8 +25,8 @@ public final class FragmentSettingsBinding implements ViewBinding {
   @NonNull
   public final Switch switchNotifications;
 
-  private FragmentSettingsBinding(@NonNull LinearLayout rootView,
-      @NonNull Switch switchExpiryAlerts, @NonNull Switch switchNotifications) {
+  private FragmentSettingsBinding(@NonNull ScrollView rootView, @NonNull Switch switchExpiryAlerts,
+      @NonNull Switch switchNotifications) {
     this.rootView = rootView;
     this.switchExpiryAlerts = switchExpiryAlerts;
     this.switchNotifications = switchNotifications;
@@ -34,7 +34,7 @@ public final class FragmentSettingsBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -71,7 +71,7 @@ public final class FragmentSettingsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentSettingsBinding((LinearLayout) rootView, switchExpiryAlerts,
+      return new FragmentSettingsBinding((ScrollView) rootView, switchExpiryAlerts,
           switchNotifications);
     }
     String missingId = rootView.getResources().getResourceName(id);
