@@ -8,6 +8,10 @@
         "source": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-main-34:\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "com.pantry.smartpantrymanager.app-debug-32:/layout_activity_recipe_detail.xml.flat",
+        "source": "com.pantry.smartpantrymanager.app-main-34:/layout/activity_recipe_detail.xml"
+    },
+    {
         "merged": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-debug-32:\\layout_activity_add_edit_pantry.xml.flat",
         "source": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-main-34:\\layout\\activity_add_edit_pantry.xml"
     },
@@ -20,8 +24,16 @@
         "source": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-main-34:\\layout\\item_recipe.xml"
     },
     {
+        "merged": "com.pantry.smartpantrymanager.app-debug-32:/layout_fragment_suggested_recipes.xml.flat",
+        "source": "com.pantry.smartpantrymanager.app-main-34:/layout/fragment_suggested_recipes.xml"
+    },
+    {
         "merged": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-debug-32:\\layout_activity_recipe_detail.xml.flat",
         "source": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-main-34:\\layout\\activity_recipe_detail.xml"
+    },
+    {
+        "merged": "com.pantry.smartpantrymanager.app-debug-32:/layout_fragment_recipe_list.xml.flat",
+        "source": "com.pantry.smartpantrymanager.app-main-34:/layout/fragment_recipe_list.xml"
     },
     {
         "merged": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-debug-32:\\layout_activity_main.xml.flat",
@@ -34,6 +46,10 @@
     {
         "merged": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-debug-32:\\layout_fragment_pantry.xml.flat",
         "source": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-main-34:\\layout\\fragment_pantry.xml"
+    },
+    {
+        "merged": "com.pantry.smartpantrymanager.app-debug-32:/layout_fragment_pantry.xml.flat",
+        "source": "com.pantry.smartpantrymanager.app-main-34:/layout/fragment_pantry.xml"
     },
     {
         "merged": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-debug-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",

@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-mergeDebugResources-31:\\layout\\activity_recipe_detail.xml",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-main-34:\\layout\\activity_recipe_detail.xml"
-    },
-    {
         "merged": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-mergeDebugResources-31:\\layout\\fragment_recipe_list.xml",
         "source": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-main-34:\\layout\\fragment_recipe_list.xml"
     },
@@ -16,16 +12,40 @@
         "source": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-main-34:\\layout\\item_recipe.xml"
     },
     {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-mergeDebugResources-31:\\layout\\fragment_suggested_recipes.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-main-34:\\layout\\fragment_suggested_recipes.xml"
+    },
+    {
+        "merged": "com.pantry.smartpantrymanager.app-mergeDebugResources-31:/layout/fragment_recipe_list.xml",
+        "source": "com.pantry.smartpantrymanager.app-main-34:/layout/fragment_recipe_list.xml"
+    },
+    {
+        "merged": "com.pantry.smartpantrymanager.app-mergeDebugResources-31:/layout/fragment_pantry.xml",
+        "source": "com.pantry.smartpantrymanager.app-main-34:/layout/fragment_pantry.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-mergeDebugResources-31:\\layout\\activity_add_edit_pantry.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-main-34:\\layout\\activity_add_edit_pantry.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-mergeDebugResources-31:\\layout\\activity_recipe_detail.xml",
+        "source": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-main-34:\\layout\\activity_recipe_detail.xml"
+    },
+    {
+        "merged": "com.pantry.smartpantrymanager.app-mergeDebugResources-31:/layout/fragment_suggested_recipes.xml",
+        "source": "com.pantry.smartpantrymanager.app-main-34:/layout/fragment_suggested_recipes.xml"
+    },
+    {
+        "merged": "com.pantry.smartpantrymanager.app-mergeDebugResources-31:/layout/activity_recipe_detail.xml",
+        "source": "com.pantry.smartpantrymanager.app-main-34:/layout/activity_recipe_detail.xml"
+    },
+    {
         "merged": "com.pantry.smartpantrymanager.app-mergeDebugResources-31:/layout/activity_add_edit_pantry.xml",
         "source": "com.pantry.smartpantrymanager.app-main-34:/layout/activity_add_edit_pantry.xml"
     },
     {
         "merged": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-mergeDebugResources-31:\\layout\\fragment_settings.xml",
         "source": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-main-34:\\layout\\fragment_settings.xml"
-    },
-    {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-mergeDebugResources-31:\\layout\\fragment_suggested_recipes.xml",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-main-34:\\layout\\fragment_suggested_recipes.xml"
     },
     {
         "merged": "com.pantry.smartpantrymanager.app-mergeDebugResources-31:/layout/fragment_settings.xml",
@@ -38,9 +58,5 @@
     {
         "merged": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-mergeDebugResources-31:\\layout\\item_pantry.xml",
         "source": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-main-34:\\layout\\item_pantry.xml"
-    },
-    {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-mergeDebugResources-31:\\layout\\activity_add_edit_pantry.xml",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\9.5.0\\com.pantry.smartpantrymanager.app-main-34:\\layout\\activity_add_edit_pantry.xml"
     }
 ]
