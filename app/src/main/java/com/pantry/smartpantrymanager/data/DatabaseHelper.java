@@ -383,4 +383,19 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         values.put(COLUMN_PANTRY_EXPIRY, expiry);
         db.insert(TABLE_PANTRY, null, values);
     }
+
+    public void clearPantry() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.delete(TABLE_PANTRY, null, null);
+        db.close();
+    }
+
+    public void resetDatabase() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_PANTRY);
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_RECIPES);
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_RECIPE_INGREDIENTS);
+        onCreate(db);
+        db.close();
+    }
 }

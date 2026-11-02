@@ -11,8 +11,10 @@ color text_secondary
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id buttonClearPantry
 id buttonDelete
 id buttonEdit
+id buttonResetDefault
 id buttonSave
 id editTextName
 id editTextQty
@@ -27,8 +29,10 @@ id navigation_suggested
 id recyclerViewPantry
 id recyclerViewRecipes
 id recyclerViewSuggested
+id switchDarkMode
 id switchExpiryAlerts
-id switchNotifications
+id switchLowStock
+id textViewAbout
 id textViewDetailIngredients
 id textViewDetailName
 id textViewDetailSteps

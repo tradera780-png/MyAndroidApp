@@ -3174,9 +3174,11 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id buttonClearPantry
 id buttonDelete
 id buttonEdit
 id buttonPanel
+id buttonResetDefault
 id buttonSave
 id cache_measures
 id callMeasure
@@ -3519,8 +3521,9 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id switchDarkMode
 id switchExpiryAlerts
-id switchNotifications
+id switchLowStock
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3542,6 +3545,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textViewAbout
 id textViewDetailIngredients
 id textViewDetailName
 id textViewDetailSteps

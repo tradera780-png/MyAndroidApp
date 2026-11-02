@@ -4,8 +4,10 @@ package com.pantry.smartpantrymanager.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ScrollView;
 import android.widget.Switch;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -20,16 +22,34 @@ public final class FragmentSettingsBinding implements ViewBinding {
   private final ScrollView rootView;
 
   @NonNull
+  public final Button buttonClearPantry;
+
+  @NonNull
+  public final Button buttonResetDefault;
+
+  @NonNull
+  public final Switch switchDarkMode;
+
+  @NonNull
   public final Switch switchExpiryAlerts;
 
   @NonNull
-  public final Switch switchNotifications;
+  public final Switch switchLowStock;
 
-  private FragmentSettingsBinding(@NonNull ScrollView rootView, @NonNull Switch switchExpiryAlerts,
-      @NonNull Switch switchNotifications) {
+  @NonNull
+  public final TextView textViewAbout;
+
+  private FragmentSettingsBinding(@NonNull ScrollView rootView, @NonNull Button buttonClearPantry,
+      @NonNull Button buttonResetDefault, @NonNull Switch switchDarkMode,
+      @NonNull Switch switchExpiryAlerts, @NonNull Switch switchLowStock,
+      @NonNull TextView textViewAbout) {
     this.rootView = rootView;
+    this.buttonClearPantry = buttonClearPantry;
+    this.buttonResetDefault = buttonResetDefault;
+    this.switchDarkMode = switchDarkMode;
     this.switchExpiryAlerts = switchExpiryAlerts;
-    this.switchNotifications = switchNotifications;
+    this.switchLowStock = switchLowStock;
+    this.textViewAbout = textViewAbout;
   }
 
   @Override
@@ -59,20 +79,44 @@ public final class FragmentSettingsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.buttonClearPantry;
+      Button buttonClearPantry = ViewBindings.findChildViewById(rootView, id);
+      if (buttonClearPantry == null) {
+        break missingId;
+      }
+
+      id = R.id.buttonResetDefault;
+      Button buttonResetDefault = ViewBindings.findChildViewById(rootView, id);
+      if (buttonResetDefault == null) {
+        break missingId;
+      }
+
+      id = R.id.switchDarkMode;
+      Switch switchDarkMode = ViewBindings.findChildViewById(rootView, id);
+      if (switchDarkMode == null) {
+        break missingId;
+      }
+
       id = R.id.switchExpiryAlerts;
       Switch switchExpiryAlerts = ViewBindings.findChildViewById(rootView, id);
       if (switchExpiryAlerts == null) {
         break missingId;
       }
 
-      id = R.id.switchNotifications;
-      Switch switchNotifications = ViewBindings.findChildViewById(rootView, id);
-      if (switchNotifications == null) {
+      id = R.id.switchLowStock;
+      Switch switchLowStock = ViewBindings.findChildViewById(rootView, id);
+      if (switchLowStock == null) {
         break missingId;
       }
 
-      return new FragmentSettingsBinding((ScrollView) rootView, switchExpiryAlerts,
-          switchNotifications);
+      id = R.id.textViewAbout;
+      TextView textViewAbout = ViewBindings.findChildViewById(rootView, id);
+      if (textViewAbout == null) {
+        break missingId;
+      }
+
+      return new FragmentSettingsBinding((ScrollView) rootView, buttonClearPantry,
+          buttonResetDefault, switchDarkMode, switchExpiryAlerts, switchLowStock, textViewAbout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
