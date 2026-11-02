@@ -31,5 +31,6 @@
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <item name="colorSecondary">@color/accent</item>
         <item name="android:windowBackground">@color/background</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
     </style>
 </resources>

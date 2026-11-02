@@ -5,7 +5,8 @@
     android:layout_height="wrap_content"
     android:layout_marginBottom="8dp"
     app:cardCornerRadius="8dp"
-    app:cardElevation="2dp">
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/card_background">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -46,7 +47,8 @@
             android:layout_height="40dp"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:src="@android:drawable/ic_menu_edit"
-            android:contentDescription="@string/edit" />
+            android:contentDescription="@string/edit"
+            app:tint="@color/text_primary" />
 
         <ImageButton
             android:id="@+id/buttonDelete"
@@ -55,7 +57,8 @@
             android:background="?attr/selectableItemBackgroundBorderless"
             android:src="@android:drawable/ic_menu_delete"
             android:contentDescription="@string/delete"
-            android:layout_marginStart="8dp" />
+            android:layout_marginStart="8dp"
+            app:tint="@color/red" />
 
     </LinearLayout>
 
